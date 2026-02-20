@@ -1,0 +1,410 @@
+Perfect 💌🔥
+Yeh raha **final, complete, production-ready PRD** — fully structured, mobile-first, clear requirements ke sath. Is document ko aap direct development ke liye use kar sakte ho.
+
+---
+
+# 💌 PRODUCT REQUIREMENTS DOCUMENT (PRD)
+
+# **Product Name:** Unlock My Heart
+
+### A Mobile-First Interactive Apology Web App
+
+---
+
+# 1️⃣ Executive Summary
+
+**Unlock My Heart** ek single-page, mobile-first interactive web experience hai jiska purpose ek emotional, memorable aur engaging apology deliver karna hai.
+
+Yeh app ek journey create karegi:
+
+🔐 Curiosity → 💗 Appreciation → 🎮 Light Fun → 💌 Heartfelt Apology → 🎉 Forgiveness
+
+Core requirement:
+⚠️ MUST be fully mobile responsive and touch-optimized.
+
+---
+
+# 2️⃣ Objectives
+
+### Primary Objective
+
+Ek creative, emotional aur interactive apology experience create karna jo normal text message se zyada impactful ho.
+
+### Secondary Objectives
+
+* Mobile devices par perfect UI
+* Smooth animations
+* Lightweight and fast
+* No backend dependency
+
+---
+
+# 3️⃣ Target Audience
+
+| Role     | Description        |
+| -------- | ------------------ |
+| Builder  | Aap (developer)    |
+| End User | Aap ki best friend |
+
+### Device Focus:
+
+📱 Mobile First (320px–480px priority)
+
+---
+
+# 4️⃣ Core Experience Flow
+
+---
+
+# 🔐 PHASE 1: Password Unlock Screen
+
+## Purpose:
+
+Exclusivity + Emotional curiosity create karna.
+
+---
+
+## UI Requirements (Mobile-First)
+
+* Full screen height (100vh)
+* Center aligned content
+* Animated glowing heart icon
+* Full-width input field
+* Rounded primary button (min 44px height)
+
+---
+
+## Content
+
+Title:
+
+> “Some things are meant for only one person…”
+
+Subtext:
+
+> “If it’s really you… you’ll know what to type.”
+
+Hint (small):
+
+> “The one who matters the most.”
+
+Password:
+👉 Her Name
+
+---
+
+## Functional Requirements
+
+* Input validation (case insensitive)
+
+* Wrong password message:
+
+  > “Close… but not the one I care about.”
+
+* Correct password:
+
+  * Heart unlock animation
+  * Fade transition to next phase (300–500ms)
+
+---
+
+# 💗 PHASE 2: Reasons Why You Matter
+
+---
+
+## Purpose:
+
+Apology se pehle appreciation build karna.
+
+---
+
+## UI Requirements
+
+* Background transition to soft warm tone
+* Centered single card layout
+* 90% screen width card
+* Rounded corners (16px+)
+* Subtle shadow
+* Vertical stacking layout
+
+---
+
+## Interaction Flow
+
+Button:
+👉 “Tap to Continue”
+
+Each tap reveals one card:
+
+1. “Because tum meri safe place ho.”
+2. “Because tum mujhe bina judge kiye sunti ho.”
+3. “Because tum meri life ka constant ho.”
+4. “Because tum bina kahe samajh leti ho.”
+5. Final larger card:
+
+   > “Aur isi liye… I’m really sorry.”
+
+---
+
+## Animation Requirements
+
+* Slide-up animation
+* Fade-in effect
+* Slight scale bounce
+* 300ms–400ms transitions
+
+---
+
+# 🎮 PHASE 3: Mini Game – Catch The Apology
+
+---
+
+## Purpose:
+
+Heavy emotion ke baad thoda light interactive moment create karna.
+
+---
+
+## UI Requirements
+
+* Floating falling hearts
+* Minimum heart size: 40px (touch friendly)
+* Max 15–20 elements at once
+* No lag on low-end phones
+
+---
+
+## Gameplay Mechanics
+
+* Hearts fall from top randomly
+* User tap kare to collect
+* Counter show ho (e.g., 3/5)
+
+After 5 hearts collected:
+
+* Final glowing large heart appear
+* Tap → message reveal
+
+---
+
+## Message Reveal
+
+> “Mera dil bhi isi tarah sirf tumhara hai.”
+
+Confetti animation trigger 🎉
+
+---
+
+# 💌 PHASE 4: Final Apology Screen
+
+---
+
+## Purpose:
+
+Direct emotional closure + forgiveness request
+
+---
+
+## UI Requirements
+
+* Minimal layout
+* Center aligned text
+* Max width 80%
+* Vertical button stacking
+* Large tap areas
+
+---
+
+## Apology Script
+
+> “I’m truly sorry.”
+> “Mujhse galti hui.”
+> “Tum meri best friend nahi… meri family ho.”
+> “Please don’t let one mistake break us.”
+
+---
+
+## Final Buttons
+
+💗 “Yes, I forgive you”
+😒 “No”
+
+---
+
+## Interaction Logic
+
+If “No” clicked:
+
+* Button shift position
+  OR
+* Shake animation
+  OR
+* Swap with Yes button (fun touch)
+
+If “Yes” clicked:
+
+* Full confetti burst
+* Background glow
+* Final message:
+
+> “Thank you for not giving up on us.”
+
+---
+
+# 5️⃣ Technical Requirements
+
+---
+
+## Frontend Stack
+
+* HTML5
+* CSS3 (Flexbox / Grid)
+* Vanilla JavaScript
+
+Optional:
+
+* Canvas Confetti
+* GSAP (lightweight use only)
+
+---
+
+## Responsive Requirements (MANDATORY)
+
+### Mobile-First Approach
+
+* Design from 320px width upward
+* Use relative units (%, rem, vh, vw)
+* No fixed pixel layouts
+* No horizontal scroll
+
+---
+
+## Responsive Breakpoints
+
+```css
+@media (min-width: 480px)
+@media (min-width: 768px)
+@media (min-width: 1024px)
+```
+
+---
+
+## Touch Optimization
+
+* Buttons min height: 44px
+* Tap targets ≥ 40px
+* No hover-only interactions
+* Visible active states
+
+---
+
+# 6️⃣ Performance Requirements
+
+* Load time < 3 seconds
+* Total size < 2MB
+* No heavy frameworks
+* Max 20 animated elements at once
+* Smooth 60fps animations
+
+---
+
+# 7️⃣ Accessibility Requirements
+
+* Minimum font-size 16px
+* Good contrast ratio
+* Focus states visible
+* Keyboard accessible
+
+---
+
+# 8️⃣ UI Design System
+
+---
+
+## Option A – Romantic Dark
+
+* Background: radial gradient dark purple → black
+* Accent: soft pink glow
+* Text: white + blush
+* Subtle floating particles
+
+---
+
+## Option B – Soft Pastel
+
+* Pink/lavender gradient
+* Rounded UI
+* Sparkle animations
+* Soft shadows
+
+---
+
+## Typography
+
+* Google Font: Poppins
+* Headings: 22–28px (responsive clamp)
+* Body: 16–18px
+
+---
+
+# 9️⃣ Non-Functional Requirements
+
+* Works on:
+
+  * Chrome Mobile
+  * Safari iOS
+  * Samsung Internet
+* No backend required
+* Can be deployed static
+* Offline capable (optional)
+
+---
+
+# 🔟 Deployment Plan
+
+1. Develop locally
+2. Test on:
+
+   * Chrome Dev Tools responsive mode
+   * Real Android device
+   * Real iPhone
+3. Deploy on:
+
+   * Vercel
+   * Netlify
+   * GitHub Pages
+
+---
+
+# 1️⃣1️⃣ Definition of Done
+
+Project considered complete when:
+
+✅ Fully mobile responsive
+✅ No overflow or layout breaking
+✅ All buttons touch-friendly
+✅ Smooth transitions
+✅ Emotional flow feels natural
+✅ Tested on real mobile device
+
+---
+
+# 1️⃣2️⃣ Emotional Strategy Blueprint
+
+| Stage       | Emotion Trigger |
+| ----------- | --------------- |
+| Unlock      | Curiosity       |
+| Reasons     | Appreciation    |
+| Game        | Smile           |
+| Apology     | Vulnerability   |
+| Forgiveness | Relief + Warmth |
+
+---
+
+# Final Experience Summary
+
+Phone par open → Password unlock → Appreciation build → Mini game → Emotional apology → Confetti forgiveness → Warm ending 💖
+
+---
+
+
